@@ -1,0 +1,80 @@
+a:link,
+a:visited {
+  color: white; /* You can set any color you prefer */
+  text-decoration: none; /* Removes the underline from links */
+}
+
+/* Change link color on hover */
+a:hover {
+  color: black; /* Change to the desired color on hover */
+}
+
+/* Change link color when active (clicked) */
+a:active {
+  color: green; /* Change to the desired color when clicked */
+}
+
+#navbar{
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+}
+.navbar-nav{
+    color: white;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: white
+}
+
+#about{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #005b8a;
+    color: white;
+}
+
+#projects{
+    background-color: #005b8a;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#footer{
+    background-color: #01293d;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+#title-page{
+    background-color: azure;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    width: 100%;
+    background-image: url(./Assets/Background\ of\ landing\ page.png);
+}
+
+
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+    border-color: white;
+  }
+
+.carousel-item{
+    width: 100%;
+    height: 500px;
+}
+.carousel-caption{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F6F4EB80;
+    padding-bottom: 0;
+}
+.btn-social {
+    border-radius: 100%;
+    display: inline-flex;
+    width: 3.25rem;
+    height: 3.25rem;
+    font-size: 1.25rem;
+    justify-content: center;
+    align-items: center;
+}
+
